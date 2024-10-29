@@ -9,34 +9,34 @@
   "dependencies": [
     {
       "name": "puppetlabs/powershell",
-      "version_requirement": ">= 1.0.1"
+      "version_requirement": ">= 6.0.0 < 7.0.0"
     },
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 4.25.0"
+      "version_requirement": ">= 9.0.0 < 10.0.0"
     },
     {
       "name": "puppetlabs/reboot",
-      "version_requirement": ">= 1.0.0"
+      "version_requirement": ">= 6.0.0 < 6.0.0"
     }
   ],
   "operatingsystem_support": [
     {
       "operatingsystem": "Windows",
       "operatingsystemrelease": [
-        "Server 2008",
-        "Server 2008 R2",
-        "Server 2012",
         "Server 2012 R2",
-        "7",
-        "8"
+        "Server 2016",
+        "Server 2019",
+        "Server 2022",
+        "10 Enterprise",
+        "11 Enterprise"
       ]
     }
   ],
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 3.7.0 < 5.0.0"
+      "version_requirement": ">= 7.34.0 < 9.0.0"
     }
   ],
   "tags": [
@@ -44,7 +44,7 @@
     "active directory",
     "domain"
   ],
-  "pdk-version": "1.4.1",
-  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
-  "template-ref": "1.4.1-0-g52adbbb"
+  "pdk-version": "3.2.0",
+  "template-url": "pdk-default#3.2.0",
+  "template-ref": "tags/3.2.0-0-gb257ef1"
 }
